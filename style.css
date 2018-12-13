@@ -1,6 +1,18 @@
 .huis {
-  height: 80vh;
-  width: 20vw;
-  padding: 200px;
+  position: static;
+  height: 600px;
+  width: 400px;
+  margin: 20px;
   background-color: black;
+}
+
+.huis:hover {
+
+}
+#straat {
+  position: absolute;
+  width: 5280px;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
 }
