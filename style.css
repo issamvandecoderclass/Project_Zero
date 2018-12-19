@@ -2,38 +2,37 @@
   position: static;
   height: 500px;
   width: 400px;
-  margin: 0;
   background-color: black;
 }
 
-.huis:hover {
-
-}
-
-.straat {
-  position: absolute;
-  width: 5280px;
-  height: 90vh;
+.dorp {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .straat{
-  position:absolute;
-  display:block;
-  top: auto;
-  left: -600px;
-  width: 600px;
-  max-height: 1000px;
-  background: black;
-  overflow-y:auto;
-  overflow-x:hidden;
-  transform:rotate(-90deg) translateY(-80px);
-  transform-origin: right top;
+  position: absolute;
+  margin-top: 49vh;
+  width: 100vh;
+  height: 100vw;
+  background: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transform:rotate(-90deg);
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
 .straat > div{
-  display:block;
-  background: grey;
-  transform:rotate(90deg);
-  transform-origin: right top;
+  background: black;
+  transform: rotate(90deg) translateY(-30vh);
+  transform-origin: center;
 }
