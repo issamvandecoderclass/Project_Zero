@@ -1,0 +1,70 @@
+.huis {
+  position: static;
+  height: 500px;
+  width: 400px;
+  margin: 0;
+  background-color: black;
+}
+
+.huis:hover {
+
+}
+
+.straat {
+  position: absolute;
+  width: 5280px;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.straat{
+  position:absolute;
+  display:block;
+  top: auto;
+  left: -600px;
+  width: 600px;
+  max-height: 1000px;
+  background: black;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin: right top;
+}
+.straat > div{
+  display:block;
+  background: grey;
+  transform:rotate(90deg);
+  transform-origin: right top;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
