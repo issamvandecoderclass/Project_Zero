@@ -12,6 +12,8 @@
 }
 
 .straat{
+  margin-left: 0;
+  margin-right: 0;
   position: absolute;
   margin-top: 49vh;
   width: 100vh;
@@ -32,8 +34,9 @@
 }
 
 .straat > div{
-  color: white;
-  background: black;
+  color: black;
+  border-style: dotted;
+  background: white;
   transform: rotate(90deg) translateY(-30vh);
   transform-origin: center;
 }
