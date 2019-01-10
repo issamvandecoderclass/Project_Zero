@@ -1,21 +1,19 @@
-.huis {
-  position: relative;
-  height: 500px;
-  width: 400px;
-  background-color: black;
+body {
+  overflow-y: hidden;
 }
 
 .dorp {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: green;
 }
 
 .straat{
   margin-left: 0;
   margin-right: 0;
   position: absolute;
-  margin-top: 49vh;
+  margin-top: 50vh;
   width: 100vh;
   height: 100vw;
   background: transparent;
@@ -33,12 +31,24 @@
     background: transparent;
 }
 
-.straat > div{
+.huis {
+  position: relative;
+  height: 500px;
+  width: 400px;
+  background-color: #808080;
   margin-bottom: 0;
   color: white;
-  border-style: groove;
-  transform: rotate(90deg) translateY(-30vh);
+  transform: rotate(90deg) translateY(-27.5vh);
   transform-origin: center;
+}
+
+#gras {
+  top: 0;
+  margin-top: 80vh;
+  position: absolute;
+  width: 100vw;
+  height: 20vh;
+  background-color: #00ff00;
 }
 
 /* hier is nu de lijst*/
