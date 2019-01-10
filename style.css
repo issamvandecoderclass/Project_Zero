@@ -1,5 +1,8 @@
 body {
   overflow-y: hidden;
+  background-image: url("skyline.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 80vh;
 }
 
 .dorp {
