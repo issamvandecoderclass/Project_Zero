@@ -1,5 +1,5 @@
 .huis {
-  position: static;
+  position: relative;
   height: 500px;
   width: 400px;
   background-color: black;
@@ -34,46 +34,9 @@
 }
 
 .straat > div{
-  color: black;
-  border-style: dotted;
-  background: white;
+  margin-bottom: 0;
+  color: white;
+  border-style: groove;
   transform: rotate(90deg) translateY(-30vh);
   transform-origin: center;
-}
-
-/* hier is nu de lijst*/
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  top: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
-div.navigation {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
