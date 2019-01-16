@@ -54,4 +54,25 @@ body {
   background-color: #00ff00;
 }
 
-/* hier is nu de lijst*/
+#hotel1 {
+  background-image: url("Hotels/hotel+oto.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px !important;
+  width: 300px !important;
+  transform: rotate(90deg) translateY(-34vh) !important;
+}
+
+#hotel2 {
+  background-color: #fff !important;
+  background-image: url("Hotels/rizton.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px !important;
+  width: 300px !important;
+  transform: rotate(90deg) translateY(-40.6vh) !important;
+}
+
+#hotel3 {
+
+}
