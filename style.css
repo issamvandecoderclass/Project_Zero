@@ -59,7 +59,7 @@ body {
   background-color: #00ff00;
 }
 
-#lobby {
+.lobby {
   height: 80vh;
   width: 80vh;
   background-color: #fff;
@@ -69,6 +69,7 @@ body {
   z-index: 10;
   align-items: center;
 }
+
 
 #reiskeuzes {
   background-color: white;
