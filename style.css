@@ -70,6 +70,26 @@ body {
   align-items: center;
 }
 
+#lobby1 {
+ top: 110vh;
+ background-color: #4286f4 !important;
+}
+
+#lobby2 {
+  top: 110vh;
+  background-color: #ba101e !important;
+}
+
+#lobby3 {
+  top: 110vh;
+  background-color: #1dff00 !important;
+}
+
+div:target {
+  top: 10vh;
+  transition:all 0.5s linear;
+}
+
 
 #reiskeuzes {
   background-color: white;
@@ -82,6 +102,7 @@ body {
   background-image: url("Hotels/hotel+oto.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  transition:all 0.5s linear;
   height: 500px !important;
   width: 300px !important;
   transform: rotate(90deg) translateY(-34vh) !important;
@@ -92,11 +113,12 @@ body {
   background-image: url("Hotels/rizton.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  transition:all 0.5s linear;
   height: 600px !important;
   width: 300px !important;
   transform: rotate(90deg) translateY(-40.6vh) !important;
 }
 
 #hotel3 {
-
+  transition:all 0.5s linear;
 }
