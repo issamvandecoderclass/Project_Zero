@@ -3,13 +3,13 @@ body {
   /*ackground-image: url("skyline.png");
   background-repeat: no-repeat;
   background-size: 100vw 80vh;*/
+  background-color: #2ECCFA;
 }
 
 .dorp {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: green;
 }
 
 .straat{
@@ -45,6 +45,11 @@ body {
   transform-origin: center;
 }
 
+@keyframes slide-in-lobby {
+  from {top: 100vh;}
+  to {top: 10vh;}
+}
+
 #gras {
   top: 0;
   margin-top: 80vh;
@@ -52,6 +57,24 @@ body {
   width: 100vw;
   height: 20vh;
   background-color: #00ff00;
+}
+
+#lobby {
+  height: 80vh;
+  width: 80vh;
+  background-color: #fff;
+  position: absolute;
+  top: 10vh;
+  border-radius: 20px;
+  z-index: 10;
+  align-items: center;
+}
+
+#reiskeuzes {
+  background-color: white;
+  margin: 10%;
+  height: 80%;
+  width: 80%;
 }
 
 #hotel1 {
@@ -64,7 +87,7 @@ body {
 }
 
 #hotel2 {
-  background-color: #fff !important;
+  background-color: #2ECCFA !important;
   background-image: url("Hotels/rizton.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
