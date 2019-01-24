@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("skyline.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh ;
+}
+
+h1 {
+   font-family: 'Roboto Mono', monospace;
+   color: black;
+   text-align: center;
+}
+
+header {
+  background-color: #fff;
+  height: 0px;
+}
+
+#title {
+  color: white;
+}
