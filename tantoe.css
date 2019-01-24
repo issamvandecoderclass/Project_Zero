@@ -12,10 +12,15 @@ body {
 h1 {
    font-family: 'Roboto Mono', monospace;
    color: black;
-   text-align: center;
+   font-size: 25px;
    position: relative;
    color: white;
-   top: 400px;
+   top: 250px;
+   left: 740px;
+   padding: 25px;
+   margin: 5px;
+   border: solid 4px white;
+   position: absolute;
 }
 
 header {
@@ -24,10 +29,9 @@ header {
 }
 
 .button {
-  background-color: white;
   color: black;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   position: relative;
