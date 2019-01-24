@@ -45,11 +45,6 @@ body {
   transform-origin: center;
 }
 
-@keyframes slide-in-lobby {
-  from {top: 100vh;}
-  to {top: 10vh;}
-}
-
 #gras {
   top: 0;
   margin-top: 80vh;
@@ -59,6 +54,11 @@ body {
   background-color: #00ff00;
 }
 
+#lobbyBackground {
+  height: 100vh;
+  width: 100vw;
+}
+
 .lobby {
   height: 80vh;
   width: 80vh;
@@ -66,30 +66,26 @@ body {
   position: absolute;
   top: 10vh;
   border-radius: 20px;
-  z-index: 10;
   align-items: center;
 }
 
 #lobby1 {
  top: 110vh;
+ z-index: 10;
  background-color: #4286f4 !important;
 }
 
 #lobby2 {
   top: 110vh;
+  z-index: 10;
   background-color: #ba101e !important;
 }
 
 #lobby3 {
   top: 110vh;
+  z-index: 10;
   background-color: #1dff00 !important;
 }
-
-div:target {
-  top: 10vh;
-  transition:all 0.5s linear;
-}
-
 
 #reiskeuzes {
   background-color: white;
@@ -102,7 +98,6 @@ div:target {
   background-image: url("Hotels/hotel+oto.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  transition:all 0.5s linear;
   height: 500px !important;
   width: 300px !important;
   transform: rotate(90deg) translateY(-34vh) !important;
@@ -113,12 +108,14 @@ div:target {
   background-image: url("Hotels/rizton.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  transition:all 0.5s linear;
   height: 600px !important;
   width: 300px !important;
   transform: rotate(90deg) translateY(-40.6vh) !important;
 }
 
 #hotel3 {
-  transition:all 0.5s linear;
+}
+
+.show {
+  margin-top: -100vh;
 }
