@@ -1,0 +1,122 @@
+body {
+  overflow-y: hidden;
+  background-image: url("Hotels/SKYLINE.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.dorp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.straat{
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  margin-top: 50vh;
+  width: 100vh;
+  height: 100vw;
+  background: transparent;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transform:rotate(-90deg);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.huis {
+  position: relative;
+  margin-bottom: 0;
+  color: white;
+  transform: rotate(90deg) translateY(-27.5vh);
+  transform-origin: center;
+}
+
+#gras {
+  top: 0;
+  margin-top: 80vh;
+  position: absolute;
+  width: 100vw;
+  height: 20vh;
+  background-color: #00ff00;
+}
+
+#lobbyBackground {
+  height: 100vh;
+  width: 100vw;
+}
+
+.lobby {
+  height: 80vh;
+  width: 80vh;
+  background-color: #fff;
+  position: absolute;
+  top: 10vh;
+  border-radius: 20px;
+  align-items: center;
+}
+
+#lobby1 {
+ top: 110vh;
+ z-index: 10;
+ background-color: #000 !important;
+}
+
+#lobby2 {
+  top: 110vh;
+  z-index: 10;
+  background-color: #808080 !important;
+}
+
+#lobby3 {
+  top: 110vh;
+  z-index: 10;
+  background-color: #fff !important;
+}
+
+#reiskeuzes {
+  background-color: white;
+  margin: 10%;
+  height: 80%;
+  width: 80%;
+}
+
+#hotel1 {
+  background-image: url("Hotels/centuriom.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px !important;
+  width: 350px !important;
+  transform: rotate(90deg) translateY(-4vh) !important;
+}
+
+#hotel2 {
+  background-image: url("Hotels/park hotel.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px !important;
+  width: 200px !important;
+  transform: rotate(90deg) translateY(-25vh) !important;
+}
+
+#hotel3 {
+  background-image: url("Hotels/ritzcarlton.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px !important;
+  width: 200px !important;
+  transform: rotate(90deg) translateY(-25vh) !important;
+}
+
+.show {
+  margin-top: -100vh;
+}
