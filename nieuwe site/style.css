@@ -8,3 +8,30 @@ body {
   font-family: arial;
   font-weight: 600;
 }
+
+.usd-rating {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.usd-rating input[type=radio] {
+    display: none
+}
+
+.usd-rating label {
+    color: #bbb;
+    font-size: 20vh;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.usd-rating label:hover,
+.usd-rating label:hover ~ label,
+.usd-rating input[type=radio]:checked ~ label {
+    color: #00aa00
+}
