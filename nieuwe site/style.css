@@ -3,10 +3,33 @@ body {
 }
 
 #Catogorie {
+  margin-top: 8vh;
   text-align: center;
-  font-size: 10vh;
+  font-size: 13vh;
   font-family: arial;
   font-weight: 600;
+}
+
+#verder-button {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+
+  border-radius: 1vh;
+  font-size: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin-top: 40vh;
+  height: 5vh;
+  width: 5vh;
+}
+
+.active {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .usd-rating {
@@ -14,20 +37,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px
+    padding: 3.95vh;
 }
 
 .usd-rating input[type=radio] {
-    display: none
+    display: none;
 }
 
 .usd-rating label {
     color: #bbb;
-    font-size: 20vh;
+    font-size: 23vh;
     padding: 0;
     cursor: pointer;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
 }
 
 .usd-rating label:hover,
