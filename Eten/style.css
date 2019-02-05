@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3.95vh;
+    padding: 3vh;
 }
 
 .usd-rating input[type=radio] {
