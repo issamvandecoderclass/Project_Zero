@@ -15,6 +15,7 @@ body {
   left: 50%;
   right: 50%;
 
+  margin-top: 40vh;
   border-radius: 1vh;
   font-size: 3vh;
   display: flex;
@@ -22,7 +23,6 @@ body {
   justify-content: center;
   background-color: black;
   color: white;
-  margin-top: 40vh;
   height: 5vh;
   width: 5vh;
 }
@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3.95vh;
+    padding: 3vh;
 }
 
 .usd-rating input[type=radio] {
