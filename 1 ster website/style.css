@@ -1,0 +1,103 @@
+body {
+  background-color: #e5e5e5;
+}
+
+#Catogorie {
+  text-align: center;
+  font-size: 10vh;
+  font-family: arial;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 3vh;
+}
+
+nav {
+  text-align: center
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-size: 2vh;
+  font-family: arial;
+  font-weight: 600;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.socialmedia {
+  position: fixed;
+  bottom: 5vw;
+  right: 84vh;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.eten{
+  position: relative;
+  display: inline-block;
+}
+
+.eten-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.eten:hover .eten-content {
+  display: block;
+}
+
+.amusement{
+  position: relative;
+  display: inline-block;
+}
+
+.amusement-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.amusement:hover .amusement-content {
+  display: block;
+}
+
+.hotel{
+  position: relative;
+  display: inline-block;
+}
+
+.hotel-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.hotel:hover .hotel-content {
+  display: block;
+}
