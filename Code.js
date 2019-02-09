@@ -1,17 +1,7 @@
-var EtenResultaat;
-var AmusementResultaat;
-var HotelResultaat;
+var EtenResultaat = 0;
+var AmusementResultaat = 0;
+var HotelResultaat = 3;
 
-SaveResultaatEten ( EtenValue ) {
-  EtenResultaat = EtenValue;
-}
-
-
-SaveResultaatAmusement ( AmusementValue ) {
-  AmusementResultaat = AmusementValue;
-}
-
-
-SaveResultaatEten ( HotelValue ) {
-  HotelResultaat = HotelValue;
+function Main(Value) {
+  console.log(Value);
 }
