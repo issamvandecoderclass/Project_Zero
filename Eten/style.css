@@ -2,10 +2,18 @@ body {
   background-color: #e5e5e5;
 }
 
-#Catogorie {
-  margin-top: 8vh;
+#Ryoko {
+  margin-top: 6vh;
   text-align: center;
   font-size: 13vh;
+  font-family: arial;
+  font-weight: 600;
+}
+
+#Catogorie {
+  margin-top: -13vh;
+  text-align: center;
+  font-size: 8vh;
   font-family: arial;
   font-weight: 600;
 }
@@ -46,7 +54,7 @@ body {
 
 .usd-rating label {
     color: #bbb;
-    font-size: 23vh;
+    font-size: 25vh;
     padding: 0;
     cursor: pointer;
 }
