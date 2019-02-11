@@ -40,8 +40,25 @@ body {
 }
 
 .locks {
-  position: static;
+  position: relative;
   color: #808080;
+  left: 12.5vh;
+  bottom: 3vh;
+}
+
+.up {
+  position: relative;
+  bottom: 3vh;
+}
+
+.left {
+  position: relative;
+  left: 6vh;
+}
+
+.right {
+  position: relative;
+  right: 4vh;
 }
 
 .usd-rating {
