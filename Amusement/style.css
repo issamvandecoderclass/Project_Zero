@@ -2,12 +2,24 @@ body {
   background-color: #e5e5e5;
 }
 
-#Catogorie {
-  margin-top: 8vh;
+#Ryoko {
+  margin-top: 6vh;
   text-align: center;
   font-size: 13vh;
   font-family: arial;
   font-weight: 600;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out
+}
+
+#Catogorie {
+  margin-top: -13vh;
+  text-align: center;
+  font-size: 8vh;
+  font-family: arial;
+  font-weight: 600;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out
 }
 
 #verder-button {
@@ -15,7 +27,6 @@ body {
   left: 50%;
   right: 50%;
 
-  margin-top: 40vh;
   border-radius: 1vh;
   font-size: 3vh;
   display: flex;
@@ -23,8 +34,11 @@ body {
   justify-content: center;
   background-color: black;
   color: white;
+  margin-top: 40vh;
   height: 5vh;
   width: 5vh;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out
 }
 
 .active {
@@ -46,13 +60,19 @@ body {
 
 .usd-rating label {
     color: #bbb;
-    font-size: 23vh;
+    font-size: 25vh;
     padding: 0;
     cursor: pointer;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out
 }
 
 .usd-rating label:hover,
-.usd-rating label:hover ~ label,
+.usd-rating label:hover ~ label {
+    color: #A0A0A0;
+}
+
+
 .usd-rating input[type=radio]:checked ~ label {
-    color: #00aa00
+    color: #00cc00
 }

@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+
+    <p id="Ryoko">Ryoko-Tokyo</p>
     <p id="Catogorie">Amusement</p>
 
-    <a href="https://www.google.com/" target="_blank">
-    <div id="verder-button" class="fa fa-check" href="google.com"></div>
+    <a href="../Resultaat%20pagina/index.html">
+      <div id="verder-button" class="fa fa-check"></div>
     </a>
 
     <div class="usd-rating">
 
 
 			<input id="usd-4" type="radio" name="rating" value="usd-4">
-  			<label for="usd-4" title="Mega-Expensive" id="mega-usd">
-  					<i class="active fa fa-usd" aria-hidden="true"></i>
+  			<label for="usd-4" title="Mega-Expensive">
+  					<i class="active fa fa-usd" aria-hidden="true" onclick="AmusementResultaat = 4; Main()"></i>
   			</label>
 
 			<input id="usd-3" type="radio" name="rating" value="usd-3">
   			<label for="usd-3" title="Expensive">
-  					<i class="active fa fa-usd" aria-hidden="true"></i>
+  					<i class="active fa fa-usd" aria-hidden="true" onclick="AmusementResultaat = 3; Main()"></i>
   			</label>
 
 			<input id="usd-2" type="radio" name="rating" value="usd-2">
   			<label for="usd-2" title="Normal">
-  					<i class="active fa fa-usd" aria-hidden="true"></i>
+  					<i class="active fa fa-usd" aria-hidden="true" onclick="AmusementResultaat = 2; Main()"></i>
   			</label>
 
 			<input id="usd-1" type="radio" name="rating" value="usd-1">
   			<label for="usd-1" title="Cheap">
-  					<i class="active fa fa-usd" aria-hidden="true"></i>
+  					<i class="active fa fa-usd" aria-hidden="true" onclick="AmusementResultaat = 1; Main()"></i>
   			</label>
 
 		</div>
