@@ -19,7 +19,7 @@ var hotel1_4 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207434.143
 var amusement1_1 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.3001916064272!2d139.77433281524156!3d35.71883508018561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e8314d77d11%3A0x232fd618bd4977dd!2sTokyo+National+Museum!5e0!3m2!1snl!2snl!4v1549978061980";
 var amusement1_2 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.3193361929368!2d139.7540704081712!3d35.685897995048315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c13425af13d%3A0xa31b000a35db03f9!2sThe+East+Gardens+of+the+Imperial+Palace!5e0!3m2!1snl!2snl!4v1549978109673";
 var amusement1_3 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.442445239232!2d139.77179311524168!3d35.71533578018624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e9b45906ac3%3A0xb1cb3623124e645a!2sUeno+Onshi+Park!5e0!3m2!1snl!2snl!4v1549978143656";
-var amusement1_4 = "";
+var amusement1_4 = "bla";
 
 function Main() {
   console.log("Eten: " + EtenResultaat);
@@ -32,37 +32,37 @@ function Main() {
 }
 
 function ChangeEtenSrc(Value) {
-  if value == "1" {
+  if (Value == "1") {
     etenIframe.src = eten1_1;
-  }  if value == "2" {
+  }  if (Value == "2") {
     etenIframe.src = eten1_2;
-  }  if value == "3" {
+  }  if (Value == "3") {
     etenIframe.src = eten1_3;
-  }  if value == "4" {
+  }  if (Value == "4") {
     etenIframe.src = eten1_4;
   }
 }
 
 function ChangeHotelSrc(Value) {
-  if value == "1" {
+  if (Value == "1") {
   hotelIframe.src = hotel1_1;
-}  if value == "2" {
+}  if (Value == "2") {
   hotelIframe.src = hotel1_2;
-}  if value == "3" {
+}  if (Value == "3") {
   hotelIframe.src = hotel1_3;
-}  if value == "4" {
+}  if (Value == "4") {
   hotelIframe.src = hotel1_4;
 }
-
+}
 
 function ChangeAmusementSrc(Value) {
-   if value == "1" {
+   if (Value == "1") {
   amusementIframe.src = amusement1_1;
-}  if value == "2" {
+}  if (Value == "2") {
   amusementIframe.src = amusement1_2;
-}  if value == "3" {
+}  if (Value == "3") {
   amusementIframe.src = amusement1_3;
-}  if value == "4" {
+}  if (Value == "4") {
   amusementIframe.src = amusement1_4;
 }
 }
